@@ -1,59 +1,64 @@
-<!DOCTYPE html>
-
+<!DOCTYPE html> 
 <html>
+<head>
+  <title>Contato - Vitória Esteffany</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400" rel="stylesheet">
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-	<head>
-		<title>Contato - Vitória Esteffany</title>
+  <div id="navigation" class="navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="curriculo.html">Currículo</a></li>
+      <li><a href="contato.html">Contato</a></li>
+      <li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+    </ul>
+  </div>
 
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/styles.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,400" rel="stylesheet">
-		<script type="text/javascript" src="js/scripts.js"></script>
-		<meta name="viewport" content="width=device-width, inital-scale=1.0">
+  <div class="main">
+    <ul class="caminho">
+      <li><a href="index.html">Home</a></li>
+      <li>></li>
+      <li>Contato</li>
+    </ul>
 
-	</head>
+    <h1>Contato</h1>
 
+    <h3>E-mail:</h3>
+    <p>Viesteffany@gmail.com</p>
 
-	<body>
+    <h3>Telefone:</h3>
+    <p>85 999842615</p>
 
-			<div id="navigation" class="navigation">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="curriculo.html">Currículo</a></li>
-					<li><a href="contato.html">Contato</a></li>
-					<li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
-				</ul>
-			</div>
+    <h3>Redes Sociais:</h3>
+    <a href="https://www.linkedin.com/in/vitoria-esteffany/" target="_blank">
+      <img class="social-img" src="img/Linkedin.png" alt="Link para o linkedin">
+    </a>
 
-			<div class="main">
-				
-				
-				<ul class="caminho">
-					<li><a href="index.html">Home</a></li>
-					<li>></li>
-					<li>Contato</li>
-				</ul>
+    <br><br>
 
-				<h1>Contato</h1>
-			
+    <h3>Envie uma mensagem:</h3>
+    <form action="#" method="post">
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome" required><br><br>
 
-				<h3>E-mail:</h3>
-				<p>Viesteffany@gmail.com</p>
+      <label for="email">E-mail:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
 
-				<h3>Telefone:</h3>
-				<p>85 999842615</p>
+      <label for="mensagem">Mensagem:</label><br>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
 
-				<h3>Redes Sociais:</h3>
-				<a href="https://www.linkedin.com/in/vitoria-esteffany/" target="_blank"><img class="social-img" src="img/Linkedin.png" alt="Link para o linkedin"></a>
+      <input type="submit" value="Enviar">
+    </form>
 
-				<br><br>
-				<a class="back-link" href="index.html">&larr; Voltar ao início<a>
+    <br><br>
+    <a class="back-link" href="index.html">&larr; Voltar ao início</a>
+  </div>	
 
-			</div>	
-
-			
-
-	</body>
-
+</body>
 </html>
